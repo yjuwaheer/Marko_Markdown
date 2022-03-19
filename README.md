@@ -1,7 +1,7 @@
 # About 
 
 In-browser Markdown editor/viewer built with ReactJS. \
-Demo app at [Marko](https://.vercel.com).
+Demo app at [Marko](https://marko-markdown.vercel.com).
 
 ## Available Scripts
 
