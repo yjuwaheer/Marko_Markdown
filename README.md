@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# About 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In-browser Markdown editor/viewer built with ReactJS. \
+Demo app at [Marko](https://.vercel.com).
 
 ## Available Scripts
 
