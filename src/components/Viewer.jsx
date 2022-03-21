@@ -61,7 +61,7 @@ const Viewer = ({ text }) => {
       <ReactMarkdown
         children={text}
         remarkPlugins={[remarkGfm, remarkMath]}
-        rehypePlugins={[rehypeKatex, rehypeRaw, rehypeSanitize]}
+        rehypePlugins={[rehypeKatex]}
         components={{
           code({ node, inline, className, children, ...props }) {
             const match = /language-(\w+)/.exec(className || "");
