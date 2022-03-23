@@ -7,8 +7,10 @@ const Menu = () => {
     <div className="Menu">
       <div className="title">~ Marko ~</div>
       <div className="menuitems">
-        <div className="menuitem">Home</div>
-        <div className="menuitem">About</div>
+        <a href="https://github.com/yjuwaheer/Marko_Markdown" target="_blank" rel="noreferrer" className="menuitem">
+          <i class="fa fa-github"></i>
+          <span style={{marginLeft: 10}}>Github</span>
+        </a>
       </div>
     </div>
   );
