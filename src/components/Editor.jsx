@@ -6,10 +6,12 @@ const Editor = ({ setText }) => {
   return (
     <div className="Editor">
       <textarea
-      className="textArea"
+        className="textArea"
         onChange={(e) => {
           setText(e.target.value);
         }}
+        placeholder="Start typing here..."
+        autoFocus
       />
     </div>
   );
